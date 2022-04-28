@@ -88,6 +88,6 @@ Note that the head part of the script is dynamic and varies each time.
 
 The front-end uses [jQuery](https://github.com/jquery/jquery) and [clipboard.js](https://github.com/zenorocha/clipboard.js).
 
-THIS PROJECT IS FOR PURE FUN AND I DO NOT UNDERTAKE ANY RESPONSIBILITY.
+THIS PROJECT IS FOR PURE FUN AND I DO NOT ASSUME ANY RESPONSIBILITY.
 
 本项目仅供娱乐，我不承担任何责任。
