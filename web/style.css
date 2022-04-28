@@ -1,0 +1,81 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    width: calc(100% - 20px);
+    height: 50px;
+    background-color: #c00;
+    color: #fff;
+    font-family: "Consolas";
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+    box-shadow: 0px 2px 6px rgb(0 0 0 / 24%), 0px 1px 2px rgb(0 0 0 / 48%);
+}
+
+.content-wrapper {
+    padding: 50px 0;
+    display: flex;
+    justify-content: center;
+}
+
+.content {
+    width: 70%;
+    padding: 30px;
+    box-shadow: 0px 0px 5px rgb(0 0 0 / 36%);
+    border-radius: 30px;
+}
+
+textarea {
+    width: calc(100% - 22px);
+    min-width: calc(100% - 22px);
+    max-width: calc(100% - 22px);
+    min-height: 150px;
+    border-radius: 5px;
+    font-family: "consolas";
+    padding: 10px;
+    font-size: 1em;
+}
+
+h2, p {
+    margin: 10px 0;
+}
+
+pre {
+    font-family: "consolas";
+    width: calc(100% - 22px);
+    border-radius: 5px;
+    padding: 10px;
+    background-color: #eee;
+    border: 1px solid #ccc;
+    min-height: 150px;
+    white-space: pre-line;
+}
+
+.button {
+    cursor: pointer;
+    border-radius: 2em;
+    display: inline-block;
+    padding: .5em 1em;
+    box-shadow: 0px 2px 6px rgb(0 0 0 / 24%), 0px 1px 2px rgb(0 0 0 / 48%);
+}
+
+.button_red {
+    color: #fff;
+    background-color: #c00;
+}
+
+.button_red:hover {
+    background-color: #e33;
+}
+
+.button_blue {
+    color: #fff;
+    background-color: #00c;
+}
+
+.button_blue:hover {
+    background-color: #33e;
+}
